@@ -78,6 +78,8 @@ body{
     color: rgb(68, 109, 255);
     cursor: pointer;
     text-decoration: none;
+    font-size: 12px;
+
 }
 .form-container .terms p a:hover , .form-container .terms > div a:hover{
     text-decoration: underline;

@@ -74,12 +74,12 @@ body{
 .form-container .terms p{
     font-size: 12px;
 }
-.form-container .terms p span , .form-container .terms > div span{
+.form-container .terms p a , .form-container .terms > div a{
     color: rgb(68, 109, 255);
     cursor: pointer;
-    
+    text-decoration: none;
 }
-.form-container .terms p span:hover , .form-container .terms > div span:hover{
+.form-container .terms p a:hover , .form-container .terms > div a:hover{
     text-decoration: underline;
 }
 .form-container .terms > div{
@@ -121,12 +121,14 @@ body{
     display: flex;
     gap: 30px;
 }
-.footer-container > div p{
+.footer-container > div a{
     font-size: 12px;
     color: rgb(68, 109, 255);
     cursor: pointer;
+    text-decoration: none;
+
 }
-.footer-container > div p:hover{
+.footer-container > div a:hover{
     text-decoration: underline;
 }
 .footer-container > p{
